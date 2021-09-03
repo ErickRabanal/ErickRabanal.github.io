@@ -1,0 +1,57 @@
+h1 {
+    color: black;
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(149, 225, 235);
+}
+
+.nav1 {
+    margin-left: 50px;
+    font-family: Comic Sans MS;
+}
+
+.nav2 {
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    background-color: coral;
+    width: 300px;
+}
+
+#izquierda {
+    text-align: right;
+}
+
+#bt1,
+#bt2,
+#bt3,
+#bt4,
+#bt5,
+#bt6,
+#bt7,
+#bt8 {
+    width: 200px;
+    color: white;
+    padding: 2px;
+    font-family: Comic Sans MS;
+}
+
+#bt1,
+#bt2,
+#bt3,
+#bt4,
+#bt5 {
+    background-color: rgb(126, 148, 189);
+}
+
+#bt6,
+#bt7,
+#bt8 {
+    background-color: rgb(179, 90, 62);
+}
