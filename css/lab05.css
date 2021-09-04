@@ -10,12 +10,12 @@ body {
 }
 
 .nav1 {
-    margin-left: 50px;
+    margin-left: 25%;
     font-family: Comic Sans MS;
 }
 
 .nav2 {
-    margin-left: 50px;
+    margin-left: 25%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -40,6 +40,7 @@ p {
     color: white;
     padding: 2px;
     font-family: Comic Sans MS;
+    border-color: white;
 }
 
 #bt1,
@@ -54,4 +55,24 @@ p {
 #bt7,
 #bt8 {
     background-color: rgb(179, 90, 62);
+}
+
+#extraer {
+    background-color: orange;
+    width: 200px;
+    color: white;
+    padding: 2px;
+    font-family: Comic Sans MS;
+    border-radius: 10px;
+    border-color: white;
+}
+
+#colorear {
+    background-color: rgb(179, 90, 62);
+    width: 200px;
+    color: white;
+    padding: 2px;
+    font-family: Comic Sans MS;
+    border-radius: 10px;
+    border-color: white;
 }
