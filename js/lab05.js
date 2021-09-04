@@ -1,6 +1,38 @@
 let a = document.getElementById("extraer");
 a.onclick = extraerDatos;
 
+let b = document.getElementById("colorear");
+b.onclick = cambiarcolor;
+let cambio = 1;
+
+function cambiarcolor() {
+
+    if (cambio) {
+        document.getElementById("bt1").style.backgroundColor = "rgb(179, 90, 62)";
+        document.getElementById("colorear").style.backgroundColor = "rgb(126, 148, 189)";
+        document.getElementById("bt2").style.backgroundColor = "rgb(179, 90, 62)";
+        document.getElementById("bt3").style.backgroundColor = "rgb(179, 90, 62)";
+        document.getElementById("bt4").style.backgroundColor = "rgb(179, 90, 62)";
+        document.getElementById("bt5").style.backgroundColor = "rgb(179, 90, 62)";
+        document.getElementById("bt6").style.backgroundColor = "rgb(126, 148, 189)";
+        document.getElementById("bt7").style.backgroundColor = "rgb(126, 148, 189)";
+        document.getElementById("bt8").style.backgroundColor = "rgb(126, 148, 189)";
+        cambio = 0;
+    } else {
+        document.getElementById("bt1").style.backgroundColor = "rgb(126, 148, 189)";
+        document.getElementById("colorear").style.backgroundColor = "rgb(179, 90, 62)";
+        document.getElementById("bt2").style.backgroundColor = "rgb(126, 148, 189)";
+        document.getElementById("bt3").style.backgroundColor = "rgb(126, 148, 189)";
+        document.getElementById("bt4").style.backgroundColor = "rgb(126, 148, 189)";
+        document.getElementById("bt5").style.backgroundColor = "rgb(126, 148, 189)";
+        document.getElementById("bt6").style.backgroundColor = "rgb(179, 90, 62)";
+        document.getElementById("bt7").style.backgroundColor = "rgb(179, 90, 62)";
+        document.getElementById("bt8").style.backgroundColor = "rgb(179, 90, 62)";
+        cambio = 1;
+    }
+
+}
+
 function extraerDatos() {
     let nombres = document.getElementById("nombres").value;
     let fecha = document.getElementById("fe").value;
